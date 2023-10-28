@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centro orizzontalmente */
+    align-items: center; /* Centro verticalmente */
+}
+
+#container {
+    display: flex;
+    align-items: center;
+}
+
+#prevButton, #nextButton {
+    margin: 0 10px; /* Aggiungi margine tra i bottoni e le immagini */
+}
+
+#carousel {
+    display: flex;
+    overflow: hidden;
+    max-width: 1000px;
+    position: relative;
+}
+
+#carousel img {
+    max-width: 100%;
+    height: auto;
+}
